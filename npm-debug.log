@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json pgrouting@0.0.0 No description
+5 warn package.json pgrouting@0.0.0 No repository field.
+6 warn package.json pgrouting@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/christopherfricke/Documents/Source/pgrouting/routing-viewer',
+8 verbose install   [ 'angular-leaflet-directive',
+8 verbose install     'grunt',
+8 verbose install     'grunt-autoprefixer',
+8 verbose install     'grunt-concurrent',
+8 verbose install     'grunt-contrib-clean',
+8 verbose install     'grunt-contrib-compass',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-contrib-copy',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-filerev',
+8 verbose install     'grunt-google-cdn',
+8 verbose install     'grunt-newer',
+8 verbose install     'grunt-ngmin',
+8 verbose install     'grunt-svgmin',
+8 verbose install     'grunt-usemin',
+8 verbose install     'grunt-wiredep',
+8 verbose install     'jshint-stylish',
+8 verbose install     'load-grunt-tasks',
+8 verbose install     'time-grunt' ] ]
+9 info preinstall pgrouting@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-concurrent@^0.5.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+12 verbose cache add [ 'angular-leaflet-directive@0.7.8', null ]
+13 verbose cache add name=undefined spec="angular-leaflet-directive@0.7.8" args=["angular-leaflet-directive@0.7.8",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'angular-leaflet-directive@0.7.8',
+14 verbose parsed url   path: 'angular-leaflet-directive@0.7.8',
+14 verbose parsed url   href: 'angular-leaflet-directive@0.7.8' }
+15 verbose cache add name="angular-leaflet-directive" spec="0.7.8" args=["angular-leaflet-directive","0.7.8"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '0.7.8',
+16 verbose parsed url   path: '0.7.8',
+16 verbose parsed url   href: '0.7.8' }
+17 verbose addNamed [ 'angular-leaflet-directive', '0.7.8' ]
+18 verbose addNamed [ '0.7.8', '0.7.8' ]
+19 verbose already installed skipping grunt@^0.4.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+20 verbose already installed skipping grunt-contrib-clean@^0.5.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+21 verbose already installed skipping grunt-autoprefixer@^0.7.3 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+22 verbose already installed skipping grunt-contrib-compass@^0.7.2 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+23 verbose already installed skipping grunt-contrib-concat@^0.4.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+24 verbose already installed skipping grunt-contrib-connect@^0.7.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+25 silly lockFile 26632dd1-angular-leaflet-directive-0-7-8 angular-leaflet-directive@0.7.8
+26 verbose lock angular-leaflet-directive@0.7.8 /Users/christopherfricke/.npm/26632dd1-angular-leaflet-directive-0-7-8.lock
+27 verbose already installed skipping grunt-contrib-copy@^0.5.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+28 verbose already installed skipping grunt-contrib-cssmin@^0.9.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+29 verbose url raw angular-leaflet-directive/0.7.8
+30 verbose url resolving [ 'https://registry.npmjs.org/',
+30 verbose url resolving   './angular-leaflet-directive/0.7.8' ]
+31 verbose url resolved https://registry.npmjs.org/angular-leaflet-directive/0.7.8
+32 info trying registry request attempt 1 at 13:25:23
+33 http GET https://registry.npmjs.org/angular-leaflet-directive/0.7.8
+34 verbose already installed skipping grunt-contrib-imagemin@^0.7.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+35 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+36 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+37 verbose already installed skipping grunt-contrib-uglify@^0.4.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+38 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+39 verbose already installed skipping grunt-filerev@^0.2.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+40 verbose already installed skipping grunt-google-cdn@^0.4.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+41 verbose already installed skipping grunt-newer@^0.7.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+42 verbose already installed skipping grunt-ngmin@^0.0.3 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+43 verbose already installed skipping grunt-svgmin@^0.4.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+44 verbose already installed skipping grunt-usemin@^2.1.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+45 verbose already installed skipping grunt-wiredep@^1.7.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+46 verbose already installed skipping jshint-stylish@^0.2.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+47 verbose already installed skipping load-grunt-tasks@^0.4.0 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+48 verbose already installed skipping time-grunt@^0.3.1 /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+49 http 404 https://registry.npmjs.org/angular-leaflet-directive/0.7.8
+50 silly registry.get cb [ 404,
+50 silly registry.get   { date: 'Sat, 30 Aug 2014 17:25:23 GMT',
+50 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"ZFPU6Q0D0CAFJ0TQ6EQRZKZV"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '36',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1409419523.628425,VS0,VE170',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 silly lockFile 26632dd1-angular-leaflet-directive-0-7-8 angular-leaflet-directive@0.7.8
+52 silly lockFile 26632dd1-angular-leaflet-directive-0-7-8 angular-leaflet-directive@0.7.8
+53 error Error: version not found: 0.7.8 : angular-leaflet-directive/0.7.8
+53 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+53 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+53 error     at Request.EventEmitter.emit (events.js:98:17)
+53 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+53 error     at Request.EventEmitter.emit (events.js:117:20)
+53 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+53 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+53 error     at _stream_readable.js:920:16
+53 error     at process._tickCallback (node.js:415:13)
+54 error If you need help, you may report this *entire* log,
+54 error including the npm and node versions, at:
+54 error     <http://github.com/npm/npm/issues>
+55 error System Darwin 13.2.0
+56 error command "node" "/usr/local/bin/npm" "install"
+57 error cwd /Users/christopherfricke/Documents/Source/pgrouting/routing-viewer
+58 error node -v v0.10.26
+59 error npm -v 1.4.3
+60 verbose exit [ 1, true ]
