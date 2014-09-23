@@ -133,7 +133,7 @@ body{
   color:$textcolor;
   z-index: 10;
 
-  overflow:visible;
+  overflow:visible !important;
 
 
   header{
@@ -149,6 +149,8 @@ body{
   .btn-group{
     width:100%;
   }
+
+
   .dialog_button{
     width:100% !important;
     border:none;
@@ -185,5 +187,3 @@ body{
 .restriction_highlight img:hover{
   background:$restriction_highlight_hover;
 }
-
-

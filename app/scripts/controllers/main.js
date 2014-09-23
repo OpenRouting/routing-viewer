@@ -8,7 +8,8 @@
  * Controller of the pgroutingApp
  */
 angular.module('pgroutingApp')
-  .controller('MainCtrl', ['$scope', 'leafletBoundsHelpers', function ($scope, leafletBoundsHelpers) {
+  .controller('MainCtrl', ['$scope', 'leafletBoundsHelpers', 'routeModel',
+        function ($scope, leafletBoundsHelpers, routeModel) {
     var init_bounds = leafletBoundsHelpers.createBoundsFromArray([
         [ 38.93037, -77.05333 ],
         [ 38.92850, -77.04855 ]]);
@@ -30,6 +31,10 @@ angular.module('pgroutingApp')
         'test3'
     ];
     $scope.startpoint = undefined;
+
+    $scope.doRoute = function(){
+        console.log(routeModel.url);
+    };
 
     console.log($scope.startpoint);
 
