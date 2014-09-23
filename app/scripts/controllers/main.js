@@ -14,7 +14,6 @@ angular.module('pgroutingApp')
         [ 38.92850, -77.04855 ]]);
 
     $scope.defaults = {
-        //tileLayer: "http://{s}.tiles.mapbox.com/v3/MapID/{z}/{x}/{y}.png",
         tileLayer: "http://api.tiles.mapbox.com/v4/bmoregeo.map-4rkgt9ta/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYm1vcmVnZW8iLCJhIjoiSk04dld2cyJ9.wMJSAMUtco68PrVuW2i4gA",
         maxZoom: 16
 
